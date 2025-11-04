@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <div id="titulo">
+           BAR LA DESEMBOCADA
+       </div>
+       <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+   
+	   		    <script src="script.js"></script>	
+<div id="formulario">
+  <form>
+    <label for="montocuenta">Monto de la cuenta:</label><br>
+    <input type="number" id="montocuenta" name="montocuenta"><br><br>
+    
+    <label for="montousuario">Monto con el que paga el usuario:</label><br>
+    <input type="number" id="montousuario" name="montousuario"><br><br>
+    
+    <label for="porpropina">Elegir % Propina:</label>
+    <select id="porpropina" name="porpropina">
+      <option value="10">10 %</option>
+      <option value="15">15 %</option>
+      <option value="20">20 %</option>
+    </select> <br><br>
+    
+    <label for="propina">Propina $:</label><br>
+    <input type="number" id="propina" name="propina" readonly><br><br>
+    
+    <label for="totalapagar">Total a pagar:</label><br>
+    <input type="number" id="totalapagar" name="totalapagar" readonly><br> <br>
+    
+    <label for="vuelto">Vuelto:</label><br>
+    <input type="number" id="vuelto" name="vuelto" readonly><br>
+    
+    <button type="button" onclick="calcular()">Calcular</button>
+  </form> 
+</div> 
+       <footer>
+           <div id="footer">
+               Desarrollada por: Matilda Ros y Joseline Peña - 9°4
+           </div>
+           </footer>
+
+</body>
+</html>
